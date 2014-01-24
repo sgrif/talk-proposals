@@ -1,14 +1,33 @@
 Abstract:
 
-Scala is a popular Functional OO Hybrid language that runs on the JVM. It’s Play framework is heavily inspired by Rails, but the functional language beneath it leads to many new and interesting concepts. We’ll explore the differences in data flow from form to database, how monads can make concurrency trivial (taking it even farther than Node.js), how the actor model lets you have background workers without Redis, and why you don’t actually need an ORM.
+Scala is a popular Functional OO Hybrid language that runs on the JVM. Its Play
+framework is heavily inspired by Rails, but the functional language beneath it
+leads to many new and interesting concepts. We’ll explore the differences in
+data flow from form to database, how monads can make concurrency trivial (taking
+it even farther than Node.js), how the actor model lets you have background
+workers without Redis, and why you don’t actually need an ORM.
 
 Details:
 
-Intended Audience: Rails developers who have worked on at least one non-trivial Rails application. Audience should be familiar with the Rails stack, as well as common add-ons such as background workers such as delayed_job or resque.
+Intended Audience: Rails developers who have worked on at least one non-trivial
+Rails application. Audience should be familiar with the Rails stack, as well as
+common add-ons such as background workers such as `delayed_job` or `resque`.
 
-Intended takeaway: The play framework handles several key concepts in ways that could potentially improve Rails. A functional language is not required to have a functional way of thinking about problems. Always be exploring new ideas (but bring what you learn back to Ruby and Rails).
+Intended takeaway: The play framework handles several key concepts in ways that
+could potentially improve Rails. A functional language is not required to have a
+functional way of thinking about problems. Always be exploring new ideas (but
+bring what you learn back to Ruby and Rails).
 
-Pitch: Scalability and concurrency are two of the most important topics in modern web applications. It’s no secret that functional languages tend to be easier to parallelize, which also leads to better scaling. The Play framework and Scala language have solved several hard problems in ways that could be brought back to Ruby and Rails. By thinking about validations differently, we can trivially move much of that work off of our servers and into the browser, without duplicating our code or losing server-side validation. By dealing with concurrency at levels higher than the server, we can be non-blocking even to the point that Node reaches, without sacrificing the structure or flow of our application.
+Pitch: Scalability and concurrency are two of the most important topics in
+modern web applications. It's no secret that functional languages tend to be
+easier to parallelize, which also leads to better scaling. The Play framework
+and Scala language have solved several hard problems in ways that could be
+brought back to Ruby and Rails. By thinking about validations differently, we
+can trivially move much of that work off of our servers and into the browser,
+without duplicating our code or losing server-side validation. By dealing with
+concurrency at levels higher than the server, we can be non-blocking even to the
+point that Node reaches, without sacrificing the structure or flow of our
+application.
 
 Outline:
 - Controllers
