@@ -2,10 +2,10 @@ Abstract:
 
 Scala is a popular Functional OO Hybrid language that runs on the JVM. Its Play
 framework is heavily inspired by Rails, but the functional language beneath it
-leads to many new and interesting concepts. We’ll explore the differences in
+leads to many new and interesting concepts. We'll explore the differences in
 data flow from form to database, how monads can make concurrency trivial (taking
 it even farther than Node.js), how the actor model lets you have background
-workers without Redis, and why you don’t actually need an ORM.
+workers without Redis, and why you don't actually need an ORM.
 
 Details:
 
