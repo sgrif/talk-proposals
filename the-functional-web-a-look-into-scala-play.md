@@ -11,11 +11,6 @@ Intended takeaway: The play framework handles several key concepts in ways that 
 Pitch: Scalability and concurrency are two of the most important topics in modern web applications. It’s no secret that functional languages tend to be easier to parallelize, which also leads to better scaling. The Play framework and Scala language have solved several hard problems in ways that could be brought back to Ruby and Rails. By thinking about validations differently, we can trivially move much of that work off of our servers and into the browser, without duplicating our code or losing server-side validation. By dealing with concurrency at levels higher than the server, we can be non-blocking even to the point that Node reaches, without sacrificing the structure or flow of our application.
 
 Outline:
-- A brief look into Scala
-  - Familiar syntax
-  - Static typing
-  - Singleton object synatax
-
 - Controllers
   - Similar concepts to Rails
   - URI parameters are explicitly passed as method arguments, rather than
@@ -43,9 +38,10 @@ Outline:
   - Since the same object is used to construct the forms in the HTML, adding
     client side validation via HTML5 is trivial
   - Certain additional steps are required to keep code clean when dealing with
-    validations that cannot be validated at point of input. (Uniqueness is the
-    big one. We don't have the half-way doesn't actually validate uniqueness
-    type validator).
+    validations that cannot be validated at point of input.
+    - Uniqueness is the biggest one. It needs to be handled at the database
+      level. We don't have the non-atomic version implemented by Rails, as it's
+      subject to confusing race conditions.
 
 - Concurrency
   - Brief overview of what monads are, describing them in terms of Enumerable
