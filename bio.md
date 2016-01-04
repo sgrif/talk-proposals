@@ -1,0 +1,1 @@
+Sean is best known as the maintainer of Active Record, the ORM for Ruby on Rails. Having been jumping from language to language for over a decade, he currently focuses his time on Rust, and bringing its ideas back to other languages. His latest project is Diesel, an ORM and Query builder for Rust.
