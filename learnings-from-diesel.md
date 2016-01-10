@@ -43,10 +43,6 @@ approaches, and how it solves some of these common problems. We'll also look at
 ways that Active Record is actively learning from Diesel, and using it to
 improve itself.
 
-Note: If this ends up in the Alternative Web Frameworks track, the focus will
-shift slightly to include how to use Diesel directly from within Ruby, and why
-you would want to.
-
 The audience will leave this talk with a better understanding of Active Record,
 and ORMs in general, and knowledge they can use to improve their apps at their
 day to day jobs
